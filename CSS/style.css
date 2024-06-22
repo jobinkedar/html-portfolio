@@ -1,0 +1,112 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+
+    
+}
+body{
+    font-family: sans-serif;
+    line-height: 1;
+    font-weight: 400;
+    color: black
+}
+.hero{
+    width: 100rem;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+    margin-left: 1rem;
+    
+}
+.hero-img{
+    width: 100%;
+}
+.heading-primary{
+   font-size: 3rem; 
+   font: weight 700px; 
+   line-height: 1.05;
+   color:rgb(4, 4, 104);
+   letter-spacing: -0.5;
+   margin-top: 1rem;
+}
+.nbs-discription{
+    font-size: 2 rem;
+    line-height:2 ;
+    margin-bottom: 4.2rem;
+   margin-top: 4rem;
+   padding: 35px;
+}
+.btn:link, .btn:visited{
+    background-color:rgb(171, 224, 171);
+    display: inline-block;
+    color: black;
+    padding: 1rem 2.2rem;
+    border-radius: 20px;
+    font-size: 1rem;
+    text-decoration: none;
+     }
+.btn:home{
+    background-color: black;
+    color: white;
+
+}
+
+
+
+.btn{
+    margin: 30px;
+}
+.section-nbs{
+    background-color: rgb(152, 172, 157);
+    padding: 9rem 0;
+
+}
+/* ADD button*/
+body{
+    background: rgb(34,193,195);
+background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(253,187,45,1) 100%);
+background-attachment: fixed;
+margin: 0;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#form{
+    width: 400px;
+    margin: 20vh auto 0 auto;
+    background-color: whitesmoke;
+    border-radius: 5px;
+    padding: 30px;
+}
+h1{
+    text-align: center;
+    color:rgb(4, 4, 104); ;
+}
+#form button
+{
+    background-color:black;
+    color: white;
+    border: 1 px solid;
+    padding: 10px;
+    margin: 20px 0px;
+    border-radius: 5px;
+    font-size: 20px;
+    width: 100%;
+    
+}
+
+    
+
+
+.input-group{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+}
+.input-group input{
+    border-radius: 5px;
+    font-size: 20px;
+    margin-top: 5px;
+    padding: 10px;
+}
